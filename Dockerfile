@@ -2,9 +2,9 @@ FROM python:3.8.10
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+COPY requirements.txt requirements.txtdas
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txtasdassd
 
 COPY . .
 
